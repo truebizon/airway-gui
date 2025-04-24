@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+/* 最大落下許容範囲切断面設定用マップ */
+.b-routeCutPlaneSetting {
+  position: relative;
+
+  /* 切断面設定ペイン */
+  .c-cutPlaneSettingPane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: var(--margin-unit);
+    margin: var(--margin-unit2);
+    width: 26.857rem;
+    height: calc(100% - var(--margin-unit2) * 2);
+    overflow-y: auto;
+  }
+
+  /* 最大落下今日範囲切断マップ */
+  .c-cutFallToleranceRangeMap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .c-landMarkField {
+    display: flex;
+    width: 100%;
+
+    img {
+      margin-right: var(--margin-unit);
+    }
+
+    .e-textField {
+      flex: 1 1 auto;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+/* ２カラムレイアウト */
+.b-twoColumn {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  column-gap: var(--margin-unit);
+  margin: 0 var(--margin-unit2);
+}
+
+/* ２カラムレイアウトのフォーム（下部に操作領域ありの２カラムレイアウト） */
+.b-twoColumnForm {
+}
+
+/* プレビューつき検索フォーム */
+.b-routeSerchContainer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: var(--margin-unit);
+  padding: 0 var(--margin-unit2);
+
+  .c-tableControl {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .c-searchFormContainer {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .c-searchedRoutePreview {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    & > div {
+      width: 100%;
+      height: 100%;
+    }
+
+    & dd {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.b-dateTimeSchedulerContainer {
+  display: grid;
+  grid-template-columns: 17.428rem 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: var(--margin-unit);
+  row-gap: var(--margin-unit);
+  margin: 0 var(--margin-unit2);
+
+  .b-dateTimeScheduleForm {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+  }
+
+  .c-calendarControl {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+
+  .c-calendarVie {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+}
