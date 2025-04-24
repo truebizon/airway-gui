@@ -1,0 +1,25 @@
+{
+  "name": "hitachi-drone-corridor-gui",
+  "version": "1.0.0",
+  "description": "ドローン航路システム 共通GUIモジュール",
+  "private": true,
+  "type": "module",
+  "remarks_1": "buildコマンドはパスに日本語が含まれると失敗します。",
+  "remarks_2": "本番起動はnpm run build ⇒ npm run start",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "format": "eslint --fix . ",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
