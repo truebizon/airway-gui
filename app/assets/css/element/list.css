@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+/* list */
+/* table要素、dl要素、ul要素のマークアップでも同様のスタイルを利用可能 */
+
+/* .e-list {
+} */
+
+.c-labeledList {
+  line-height: 2rem;
+  min-height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.c-labeledListRow {
+  &.e-groupStart {
+    border-top: 1px solid var(--border-color);
+  }
+
+  &.e-groupEnd {
+    border-bottom: 1px solid #999999;
+  }
+}
+
+.e-listLabel,
+.e-listValue {
+  height: 2rem;
+  /*vertical-align: top;*/
+  vertical-align: middle;
+}
+
+.e-listLabel {
+  padding-right: 1rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-14) var(--unnamed-font-family-biz-udpgothic);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--txt_-333333);
+  opacity: 1;
+}

@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+/* ラジオボタン */
+input[type="radio"] {
+}
+
+/* 排他ボタングループ */
+[class^="e-exclusiveButtonGroup"] {
+  input[type="radio"]:checked + [class^="e-button"] {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}

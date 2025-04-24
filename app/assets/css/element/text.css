@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+
+/* ----------------------------------------------------- */
+/* Text */
+/* ----------------------------------------------------- */
+
+body {
+  font-size: 14px;
+  color: #000000;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #888888;
+}
+
+samp {
+  font-style: italic;
+}
+
+/* ページ */
+.e-pageTitle{
+  /*font-size: 1.14rem;*/
+  margin-right: 1rem;
+  /*font-weight: normal;*/
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-14) var(--unnamed-font-family-biz-udpgothic);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--txt_-333333);
+  text-align: left;
+  opacity: 1;
+}
+
+.e-pageCategory{
+  margin-right: 1rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-14) var(--unnamed-font-family-biz-udpgothic);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--txt_-333333);
+  text-align: left;
+  opacity: 1;
+}
+
+/* リストラベル */
+.e-label {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+/* 詳細ペイン */
+.e-paneTitle {
+  font-size: 1.4rem;
+  padding: 0 1rem 1rem 0;
+}
+
+/* ログイン画面 */
+.e-loginTitle {
+  font-weight: normal;
+  width: 17rem;
+  text-align: center;
+  font-size: 2.57rem;
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  position: absolute;
+  top: 2.35rem;
+  left: 0;
+}
+
+/* 波線（～）の置き換え */
+.e-waveLine {
+  font-size: 0;
+
+  &::after {
+    content: "～";
+    display: inline-block;
+    font-size: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/* ダイアログタイトルテキスト */
+.e-dialogTitle {
+  font-size: 1.714rem;
+  font-weight: normal;
+  margin-bottom: 4rem;
+}
