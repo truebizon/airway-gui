@@ -1,0 +1,30 @@
+@charset 'utf-8';
+
+/* ----------------------------------------------------- */
+/* common */
+/* ----------------------------------------------------- */
+
+body {
+  background-color: #ffffff;
+
+  /* nuxt appのルートdiv要素 */
+  div#__nuxt {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+
+.b-pageMain {
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  left: 65px;
+  /*top: var(--system-navigation-height);
+  left: var(--system-navigation-width);*/
+  width: calc(100vw - 85px);
+  height: calc(100vh - 35px);
+  /*width: calc(100vw - var(--system-navigation-width));
+  height: calc(100vh - var(--system-navigation-height));*/
+  overflow: auto;
+}

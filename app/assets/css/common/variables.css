@@ -1,0 +1,16 @@
+:root {
+  /* 余白・サイズ */
+  --margin-unit: 0.714rem; /* 等倍表示で10px */
+  --margin-unit2: 1.42rem; /* 等倍表示で10px */
+  --system-navigation-height: 3rem;
+  --system-navigation-width: 5rem;
+  --page-navigation-height: 4rem;
+  --page-section-padding: 0.5rem;
+  --page-subMenu-width: 1.428rem;
+
+  --button-width: 9.07rem;
+  --button-height: 2.5rem;
+
+  /* 色 */
+  --border-color: #888888;
+}
