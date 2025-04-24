@@ -1,0 +1,89 @@
+@charset 'utf-8';
+
+/* ワイヤーフレームダミー画像表示用 */
+/* 実装時は適宜削除ください */
+
+#dummyImageRoute {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/reservedFlightRoute.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#dummyImageRouteSideView {
+  display: block;
+  width: 340px;
+  height: 240px;
+  background-image: url("~/assets/css/img/dummyImg/dummyFlightRouteSideView.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#dummyImageSearchedRoute {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/dummySearchedRoute.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+#dummyWeeklyCalendarView {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/timetable.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top;
+}
+
+#dummyImageFlightStatus {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/dummyImgFlightStatus.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#dummyImgFlightRouteCutPlaneSetting {
+  display: block;
+  width: 95%;
+  height: 25.357rem;
+  background-image: url("~/assets/css/img/dummyImg/dummyImgFlightRouteCutPlaneSetting.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#dummyImgCutFallToleranceRangeMap {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/dummyImgCutFallToleranceRangeMap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+#dummyImgSectionAndLandmark {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/dummyImgSectionAndLandmark.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dummyImgFallToleranceRangeSettingMap {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/assets/css/img/dummyImg/dummyImgFallToleranceRangeSettingMap.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}

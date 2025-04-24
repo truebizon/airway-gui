@@ -1,0 +1,16 @@
+<svg id="icon_route_dem" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #999;
+        opacity: 0.75;
+      }
+    </style>
+  </defs>
+  <rect id="長方形_1761" data-name="長方形 1761" class="cls-1" width="16" height="16"/>
+  <rect id="長方形_1996" data-name="長方形 1996" class="cls-2" width="16" height="8" transform="translate(12) rotate(90)"/>
+</svg>

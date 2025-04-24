@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335.596" height="355.939" viewBox="0 0 335.596 355.939">
+  <g id="グループ_1433" data-name="グループ 1433" transform="translate(-22.485 -102.644)">
+    <rect id="長方形_107" data-name="長方形 107" width="310" height="184.121" transform="translate(47.581 123.061)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <rect id="長方形_108" data-name="長方形 108" width="93.939" height="320.882" transform="translate(47.581 122.981)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <rect id="長方形_109" data-name="長方形 109" width="93.939" height="320.333" transform="translate(235.459 123.061)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5"/>
+    <text id="_200" data-name="200" transform="translate(43.629 132.714)" font-size="11" font-family="MeiryoUI, Meiryo UI"><tspan x="-20.496" y="0">200</tspan></text>
+    <text id="_100" data-name="100" transform="translate(43.629 311.199)" font-size="11" font-family="MeiryoUI, Meiryo UI"><tspan x="-20.496" y="0">100</tspan></text>
+    <text id="_0" data-name="0" transform="translate(44.214 455.469)" font-size="10" font-family="MeiryoUI, Meiryo UI"><tspan x="-6.211" y="0">0</tspan></text>
+    <text id="_300" data-name="300" transform="translate(328.091 456.469)" font-size="11" font-family="MeiryoUI, Meiryo UI"><tspan x="-10.248" y="0">300</tspan></text>
+    <text id="_200-2" data-name="200" transform="translate(234.214 456.469)" font-size="11" font-family="MeiryoUI, Meiryo UI"><tspan x="-10.248" y="0">200</tspan></text>
+    <text id="_m_" data-name="(m)" transform="translate(43.485 114.644)" font-size="11" font-family="MeiryoUI, Meiryo UI"><tspan x="-20.222" y="0">(m)</tspan></text>
+    <text id="_100-2" data-name="100" transform="translate(141.258 456.583)" font-size="11" font-family="MeiryoUI, Meiryo UI"><tspan x="-10.248" y="0">100</tspan></text>
+    <path id="パス_33" data-name="パス 33" d="M5122.5,11844.3h-310v-320.8h310Z" transform="translate(-4764.92 -11400.438)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_34" data-name="パス 34" d="M4805.349,11707.369" transform="translate(-4764.486 -11411.583)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_35" data-name="パス 35" d="M4812.5,11817.914s30.061-15.8,31,2.992-8.23,28.182,23.127,26.3l31.358-1.88,19.727,7.516H5071.3s38.782,3.513,38.884-8.577-3.14-20.308,12.1-21.364" transform="translate(-4764.92 -11417.906)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_36" data-name="パス 36" d="M4813,11844.333c0-176.915,69.185-320.332,154.53-320.332s154.53,143.417,154.53,320.332" transform="translate(-4764.95 -11400.471)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_118" data-name="長方形 118" width="173.788" height="93" transform="translate(132.596 234.379)" fill="rgba(4,0,0,0.3)" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_119" data-name="長方形 119" width="9.394" height="9.394" transform="translate(127.429 230.151)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_120" data-name="長方形 120" width="9.394" height="9.394" transform="translate(127.429 323.151)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_121" data-name="長方形 121" width="9.394" height="9.394" transform="translate(302.156 230.151)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_122" data-name="長方形 122" width="9.394" height="9.394" transform="translate(127.429 276.182)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_123" data-name="長方形 123" width="9.394" height="9.394" transform="translate(302.156 276.182)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_124" data-name="長方形 124" width="9.394" height="9.394" transform="translate(302.156 323.151)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_125" data-name="長方形 125" width="9.394" height="9.394" transform="translate(217.611 230.151)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="長方形_126" data-name="長方形 126" width="9.394" height="9.394" transform="translate(217.611 323.151)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
