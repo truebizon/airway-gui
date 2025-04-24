@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+/* 航路詳細情報ペイン */
+
+.c-dataGrid {
+    border: 0.0625rem solid #000000;
+    background-color: #ffffff;
+    width: fit-content;
+    padding-top: 0.5rem;
+}
+
+.c-detailPane {
+    height: calc(100% - 1rem);
+    width: 28rem;
+    position: absolute;
+    margin: 0.5rem;
+    padding: 1rem;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* コントロール */
+    .c-detailPaneControl {
+        flex-grow: 1;
+
+        &.e-buttonGroup {
+            flex-direction: row-reverse;
+        }
+    }
+
+    /* ナビゲーション */
+    .c-detailPaneNavigation {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    /* コンテンツ */
+    .c-detailPaneContent {
+        width: 100%;
+
+        .e-labeledList {
+            width: 100%;
+        }
+    }
+}

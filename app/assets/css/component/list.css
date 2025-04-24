@@ -1,0 +1,21 @@
+/* 凡例 */
+.c-legendList {
+  position: fixed;
+  bottom: 0;
+}
+[class^="e-legend"] {
+  margin-bottom: 0.25rem;
+}
+
+/* 凡例アイコン */
+[class^="e-legend"] img {
+  height: 1.25rem;
+  width: 1.25rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+/* 地図表示情報（レイヤー設定） */
+.c-MapIndicateList {
+  order: 2;
+}
