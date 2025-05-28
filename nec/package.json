@@ -15,7 +15,6 @@
     "lint": "eslint .",
     "format": "eslint --fix . ",
     "start": "node .output/server/index.mjs",
-    "test": "node --test"
   },
   "dependencies": {
     "@fullcalendar/core": "6.1.15",
@@ -48,6 +47,7 @@
     "@types/leaflet": "1.9.16",
     "nuxt-lodash": "2.5.3",
     "vite-plugin-vuetify": "2.1.0",
-    "vuetify": "3.7.18"
+    "vuetify": "3.7.18",
+    "vitest": "1.5.0"
   }
 }
