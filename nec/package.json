@@ -15,7 +15,6 @@
     "lint": "eslint .",
     "format": "eslint --fix . ",
     "start": "node .output/server/index.mjs",
-    "test": "vitest"
   },
   "dependencies": {
     "@fullcalendar/core": "6.1.15",
