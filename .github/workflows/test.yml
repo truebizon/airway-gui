@@ -19,7 +19,6 @@ jobs:
     - name: Install dependencies
       run: |
         cd nec
-        npm install
     - name: Run tests
       run: |
         cd nec
