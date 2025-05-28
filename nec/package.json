@@ -14,7 +14,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "format": "eslint --fix . ",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "@fullcalendar/core": "6.1.15",
